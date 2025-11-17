@@ -16,4 +16,4 @@ else
   polybar --reload mybar &
 fi
 
-echo "Polybar launched...
+echo "Polybar launched..."

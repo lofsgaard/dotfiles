@@ -257,8 +257,9 @@ bindsym $mod+m move workspace to output left
 
 # Monitor position
 exec --no-startup-id xrandr --output DP-2 --primary --mode 3440x1440 --rate 120.00 --left-of DP-0 --output DP-0 --mode 1920x1080 --rate 143.98 &
-bindsym $mod+shift+m exec --no-startup-id xrandr --output DP-2 --off
-bindsym $mod+ctrl+m exec --no-startup-id xrandr --output DP-0 --off
+bindsym $mod+shift+m exec --no-startup-id autorandr
+#bindsym $mod+shift+m exec --no-startup-id xrandr --output DP-2 --off
+#bindsym $mod+ctrl+m exec --no-startup-id xrandr --output DP-0 --off
 bindsym $mod+ctrl+shift+m exec xrandr --output DP-2 --primary --mode 3440x1440 --rate 120.00 --left-of DP-0 --output DP-0 --mode 1920x1080 --rate 143.98 &
 
 

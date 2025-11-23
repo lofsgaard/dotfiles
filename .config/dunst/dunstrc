@@ -367,6 +367,11 @@
 #    summary = "*"
 #    script = dunst_espeak.sh
 
+# Play notification sound
+[play-sound]
+    summary = "*"
+    script = ~/.config/dunst/scripts/notification-sound.sh
+
 #[script-test]
 #    summary = "*script*"
 #    script = dunst_test.sh

@@ -17,14 +17,14 @@ fi
 case "$URGENCY" in
     "LOW"|"low")
         # Play a subtle sound for low urgency
-        $PLAYER /usr/share/sounds/freedesktop/stereo/message-new-instant.oga &
+        $PLAYER /usr/share/sounds/freedesktop/stereo/message.oga &
         ;;
     "NORMAL"|"normal")
         # Play standard notification sound
-        $PLAYER /usr/share/sounds/freedesktop/stereo/bell.oga &
+        $PLAYER /usr/share/sounds/freedesktop/stereo/message.oga &
         ;;
     "CRITICAL"|"critical")
         # Play attention-grabbing sound for critical notifications
-        $PLAYER /usr/share/sounds/freedesktop/stereo/alarm-clock-elapsed.oga &
+        $PLAYER /usr/share/sounds/freedesktop/stereo/message.oga &
         ;;
 esac
